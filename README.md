@@ -1,0 +1,1 @@
+# Robust.Strategy.Design.Pattern
