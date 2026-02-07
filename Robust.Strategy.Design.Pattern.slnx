@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="StrategyDesignPattern.ConsoleApp/StrategyDesignPattern.ConsoleApp.csproj" />
   <Project Path="StrategyDesignPattern.Core/StrategyDesignPattern.Core.csproj" />
   <Project Path="StrategyDesignPattern.TestProject/StrategyDesignPattern.TestProject.csproj" />
 </Solution>

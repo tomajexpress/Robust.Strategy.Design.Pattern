@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../ClassLibrary1/StrategyDesignPattern.csproj" Id="fdd09d86-c14c-42a9-b708-707fffdc489c" />
+  <Project Path="../StrategyDesignPattern.TestProject/StrategyDesignPattern.TestProject.csproj" Id="d8c98a22-e09d-4e6e-ae37-5abc92e46be7" />
+  <Project Path="DesignPatternsConsoleApp.csproj" />
+</Solution>
