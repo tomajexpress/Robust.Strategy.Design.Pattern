@@ -87,7 +87,11 @@ Prerequisites
 5. Running Tests:
    ```bash
    dotnet test
-   
 
 ## 🤝 Contributing
 Contributions are welcome! Please ensure that any PR maintains the "Green" status of the Architecture Tests.
+
+## ✍️ Author
+Aman Toumaj Senior Software Developer & Architecture Enthusiast
+
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@aman.toumaj)
