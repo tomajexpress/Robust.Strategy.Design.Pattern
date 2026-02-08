@@ -33,3 +33,23 @@ We use a public configuration gateway to wire up our internal dependencies:
         // ...
         services.AddSingleton<ISalaryCalculator, SalaryCalculator>();
     }
+    
+## 📂 Project Structure
+Solution 'Robust.Strategy.Design.Pattern'
+├── 🖥️ StrategyDesignPattern.ConsoleApp (Entry Point)
+│   └── Program.cs
+├── 🛡️ StrategyDesignPattern.Core (The "Engine Room")
+│   ├── ⚙️ Configurations
+│   │   └── DependencyConfigurations.cs (DI Registry)
+│   ├── 🏷️ Enums
+│   │   └── SalaryType.cs
+│   ├── 🧮 TaxCalculation
+│   │   ├── ITaxCalculatorStrategy.cs (Internal)
+│   │   ├── TaxCalculatorLocator.cs (Internal)
+│   │   ├── DailyTaxCalculation.cs (Internal)
+│   │   ├── MonthlyTaxCalculation.cs (Internal)
+│   │   └── YearlyTaxCalculation.cs (Internal)
+│   ├── 📄 ISalaryCalculator.cs (Public Interface)
+│   └── 📄 SalaryCalculator.cs (Internal Implementation)
+└── 🧪 StrategyDesignPattern.TestProject (Unit Tests)
+    └── StrategyTests.cs
