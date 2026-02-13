@@ -34,7 +34,7 @@ public class TaxCalculatorLocatorTests
 
         // Assert
         act.Should().Throw<InvalidOperationException>()
-           .WithMessage("No tax calculator found for the given salary type.");
+           .WithMessage("No tax calculator found for the given salary type: *");
     }
 
     [TestMethod]

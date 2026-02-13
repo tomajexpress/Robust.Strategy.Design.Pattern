@@ -11,7 +11,7 @@ internal class TaxCalculatorLocator(IEnumerable<ITaxCalculatorStrategy> taxCalcu
         if (taxCalculator == null)
         {
             // Fail-Fast: It is better to crash than to calculate wrong taxes.
-            throw new InvalidOperationException("No tax calculator found for the given salary type.");
+            throw new InvalidOperationException($"No tax calculator found for the given salary type: {salaryType}");
         }
 
         return taxCalculator;
